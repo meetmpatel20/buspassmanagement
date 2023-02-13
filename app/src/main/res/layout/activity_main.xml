@@ -77,11 +77,11 @@
         android:id="@+id/textView6"
         android:layout_width="572dp"
         android:layout_height="71dp"
-        android:rotation="29"
+        android:rotation="8"
         android:text="________________________________________"
-        android:textSize="40sp"
-        tools:layout_editor_absoluteX="-40dp"
-        tools:layout_editor_absoluteY="5dp" />
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="-92dp"
+        tools:layout_editor_absoluteY="-2dp" />
 
     <TextView
         android:id="@+id/textView7"

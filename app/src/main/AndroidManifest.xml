@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Buspassmanagement"
         tools:targetApi="31">
         <activity
+            android:name=".Inlogin"
+            android:exported="false" />
+        <activity
             android:name=".register"
             android:exported="false" />
         <activity
