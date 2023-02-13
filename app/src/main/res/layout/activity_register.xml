@@ -8,16 +8,33 @@
     tools:context=".register">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#E5A7EC"
-        android:text="Register"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="109dp"
-        tools:ignore="MissingConstraints" />
+        android:text="_______"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:text="_____"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-38"
+        android:text="_______"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="40dp" />
 
     <TextView
         android:id="@+id/email1"
@@ -67,4 +84,13 @@
         android:text="Register Here"
         tools:layout_editor_absoluteX="130dp"
         tools:layout_editor_absoluteY="509dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/register"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="119dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
