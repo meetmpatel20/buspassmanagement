@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806846326499",
+    "project_id": "buspassmanagement",
+    "storage_bucket": "buspassmanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806846326499:android:65844af142234e6da0c7d6",
+        "android_client_info": {
+          "package_name": "com.example.buspassmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806846326499-b0727eef28qbg694sekhhlfp8ljhohpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLhFQ_43qxr9QvN1cuikMGXehCiMu5pjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806846326499-b0727eef28qbg694sekhhlfp8ljhohpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
