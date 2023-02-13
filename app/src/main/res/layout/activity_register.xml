@@ -43,8 +43,8 @@
         android:text="Email"
         android:textColor="#0E0E0E"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="287dp" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="327dp" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="287dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="327dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -62,9 +62,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="381dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="408dp" />
 
     <TextView
         android:id="@+id/password1"
@@ -73,9 +73,9 @@
         android:text="Password"
         android:textColor="#040202"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="386dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="408dp" />
 
     <Button
         android:id="@+id/button2"
@@ -92,5 +92,13 @@
         app:srcCompat="@drawable/register"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="119dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/register_1"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="592dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
