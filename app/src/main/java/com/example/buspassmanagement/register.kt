@@ -13,8 +13,6 @@ class register : AppCompatActivity() {
         setContentView(R.layout.activity_register)
         findViewById<Button>(R.id.email1)
         findViewById<Button>(R.id.password1)
-        val uemail = uemail.getText().tostring()
-        val upassword = upassword.getText().tostring()
 
     }
 }

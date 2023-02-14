@@ -48,11 +48,15 @@
         app:layout_constraintVertical_bias="0.654" />
 
     <ScrollView
-        android:layout_width="268dp"
+        android:layout_width="65dp"
         android:layout_height="213dp"
         android:background="#F8D319"
-        tools:layout_editor_absoluteX="-195dp"
-        tools:layout_editor_absoluteY="381dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,11 +65,15 @@
     </ScrollView>
 
     <ScrollView
-        android:layout_width="98dp"
-        android:layout_height="176dp"
+        android:layout_width="56dp"
+        android:layout_height="173dp"
         android:background="#DFB622"
-        tools:layout_editor_absoluteX="356dp"
-        tools:layout_editor_absoluteY="277dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,8 +88,12 @@
         android:rotation="8"
         android:text="________________________________________"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="-92dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
 
     <TextView
         android:id="@+id/textView7"
@@ -90,15 +102,22 @@
         android:rotation="-29"
         android:text="_____________________________________________________"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="594dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="179dp"
         android:layout_height="125dp"
-        app:srcCompat="@drawable/bus"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="174dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/bus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

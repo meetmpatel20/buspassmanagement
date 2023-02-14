@@ -14,8 +14,12 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="332dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -25,8 +29,12 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="462dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -34,8 +42,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login Here"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="542dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -44,8 +55,12 @@
         android:layout_height="wrap_content"
         android:text="_______"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="-13dp"
-        tools:layout_editor_absoluteY="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -55,8 +70,12 @@
         android:rotation="-38"
         android:text="_______"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -66,24 +85,34 @@
         android:rotation="90"
         android:text="_____"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="-4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="224dp"
         android:layout_height="148dp"
-        app:srcCompat="@drawable/login"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="121dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        app:srcCompat="@drawable/login" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/register_1"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="600dp" />
+        android:layout_width="188dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="628dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/register_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
